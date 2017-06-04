@@ -51,10 +51,9 @@ button:focus {
     padding-right: 0;
     position: fixed;
     color: #97A2A7;
-    fill: #BCD436;
     font-size: 16px;
     overflow: hidden;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .top{
@@ -71,8 +70,17 @@ button:focus {
     height:auto;
 }
 
+#hamburger{
+    background: none;
+    fill: #BCD436;
+}
+
 #hamburger:hover{
     fill: #6A787C;
+}
+ 
+#hamburger:focus{
+    fill: #97A2A7;
 }
 
 .menu-list{
@@ -173,8 +181,11 @@ button:focus {
     
 }
 
-
 @media(min-width:750px){
+    
+    #logo{
+        margin: 35px 0 0 50px;
+    }
     
     #yourDigital{
         text-align: left; 
@@ -191,13 +202,56 @@ button:focus {
     
     #learn-more{
         margin-top: 50px;
-        max-width: 360px
+        max-width: 360px;
     }
+    
+    .navbar{
+        background: none; 
+    }
+    
+    .menu-list ul{
+        height: 80px;
+        max-width: 583px;
+        margin: -25px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+        color: white;
+        letter-spacing: 1px;
+                
+    }
+
+    .menu-list li:hover{
+        color: white;
+        border-bottom: 4px solid #bdd436;
+        }
 }
 
 
 @media(min-width:970px){
     
+    .navbar{
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        overflow: visible;
+    }
+    
+    #hamburger{
+        display: none;
+    }
+    
+    .top{
+        width: 40vw;
+    }
+    
+    .menu-list{
+        width: 60vw;
+        height: 100px;
+        padding-top: 35px
+    }
 }
 
 @media(min-width:1170px){

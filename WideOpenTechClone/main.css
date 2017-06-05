@@ -1,4 +1,4 @@
-body{
+html{
     font-size: 16px;
     font-family: 'Open Sans';
     color: #40666d;
@@ -100,8 +100,27 @@ button:focus {
     color: #6A787C;
 }
 
+.menu-list li{
+    padding-left: 20px;
+}
+
 .visible{
     height: 393px;
+}
+
+.container{
+    max-width: 1070px;
+}
+
+.bright-green-main{
+    color: #Bdd436;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 42px;
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 300;
 }
 
     /*---------- HEADER MAIN -----------*/
@@ -151,9 +170,7 @@ button:focus {
     color: #BCD137;
 }
 
-#learn-more{
-    width: 80vw;
-    height: 50px;
+.button-green{
     color:white;
     background-color: #Bdd436;
     border-radius: 30px;
@@ -163,8 +180,25 @@ button:focus {
     font-size: 16px;
 }
 
-#learn-more:hover{
+.button-green:hover{
     background-color: #C8E23A;
+}
+
+#learn-more{
+    width: 80vw;
+    height: 50px;
+}
+
+/*---------- MAIN CONTENT -----------*/
+
+.howItWorks{
+    color: #6A787C;
+    margin-top: 35px;
+}
+
+.howItWorks p{
+    font-size: 1.5rem;
+    line-height: 36px;
 }
 
 
@@ -254,9 +288,3 @@ button:focus {
     }
 }
 
-@media(min-width:1170px){
-    
-}
-.header-container {
-    
-}

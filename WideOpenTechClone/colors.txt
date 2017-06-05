@@ -1,0 +1,25 @@
+GRAY
+
+light-gray:  
+    color: #97A2A7;
+dark-gray: 
+    color: #6A787C;
+    
+
+
+GREEN
+
+bright-green main: 
+    color: #Bdd436;
+    
+green-text: 
+    color: #BCD137;
+    
+green-highlight: 
+    color: #C8E23A;
+
+
+ORANGE
+
+orange: #D36C36;
+
